@@ -43,6 +43,19 @@ public class linecomparision {
 			else{
 				System.out.println("LINE 1 IS NOT EQUAL TO LINE 2.");
 			}
+			
+			double comp = L1.compareTo(L2);
+
+			
+			if(comp >= 1) {
+				System.out.println("LINE 1 IS GREATER THAN LINE 2.");
+			}
+			else if(comp == 0) {
+				System.out.println("LINE 1 IS EQUAL TO LINE 2.");
+			}
+			else {
+				System.out.println("LINE 1 IS LESSER THAN LINE 2.");
+			}
 
 	}
 }
