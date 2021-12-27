@@ -2,7 +2,7 @@ package com.bridgelabz;
 
 import java.util.Scanner;
 
-public class linecomputation {
+public class linecomparision{
 
 	public static void main(String[] args){
 	      System.out.println("Welcome To Line Comparison Computation Program.\n");
